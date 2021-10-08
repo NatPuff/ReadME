@@ -8,7 +8,7 @@ import class PhotosUI.PHPickerViewController
 import SwiftUI
 
 struct DetailView: View {
-    @ObservedObject var book: Book
+    @ObservedObject var book: Song
     @Binding var image: UIImage?
     @State var showingImagePicker = false
     @State var showingAlert = false
@@ -26,7 +26,7 @@ struct DetailView: View {
                 Divider()
                     .padding()
                 TextField("Review...", text: $book.microReview)
-                Book.Image(
+                Song.Image(
                     uiImage: image, 
                     title: book.title,
                     cornerRadius: 16)

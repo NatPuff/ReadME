@@ -10,10 +10,10 @@ import Foundation
 import class UIKit.UIImage
 
 struct Library {
-  var sortedBooks: [Book] { booksCache }
+  var sortedBooks: [Song] { booksCache }
 
   /// An in-memory cache of the manually-sorted books that are persistently stored.
-  private var booksCache: [Book] = [
+  private var booksCache: [Song] = [
     .init(title: "Ein Neues Land", author: "Shaun Tan", microReview: "bruh"),
     .init(title: "Bosch", author: "Laurinda Dixon", microReview: "Amogus"),
     .init(title: "Dare to Lead", author: "Brené Brown"),
@@ -27,5 +27,5 @@ struct Library {
     .init(title: "What to Say When You Talk to Yourself", author: "Shad Helmstetter")
   ]
     
-    var uiImages:[Book: UIImage] = [:]
+    var uiImages:[Song: UIImage] = [:]
 }

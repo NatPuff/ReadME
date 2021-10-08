@@ -9,7 +9,7 @@ import SwiftUI
 
 
 struct TitleAndAuthorStack: View {
-    let book: Book
+    let book: Song
     let titleFont: Font
     let authorFont: Font
     var body: some View {
@@ -25,7 +25,7 @@ struct TitleAndAuthorStack: View {
 }
 
 struct BookmarkButton: View {
-   @ObservedObject var book: Book
+   @ObservedObject var book: Song
     
     var body: some View {
       let bookmark = "bookmark"
@@ -39,7 +39,7 @@ struct BookmarkButton: View {
     }
 }
 
-extension Book {
+extension Song {
     struct Image: View {
         let uiImage: UIImage?
         let title: String
@@ -79,9 +79,9 @@ struct Book_Previews: PreviewProvider {
                     authorFont: .title2
                 )
             }
-                Book.Image(title: Book().title)
-                Book.Image(title: "")
-                Book.Image(title: "📖")
+                Song.Image(title: Song().title)
+                Song.Image(title: "")
+                Song.Image(title: "📖")
             }
             .previewedInAllColorSchemes
         }
@@ -100,7 +100,7 @@ extension Image {
     }
 }
 
-extension Book.Image {
+extension Song.Image {
     init(title: String) {
         self.init(uiImage: nil,
         title: title,

@@ -5,7 +5,7 @@
 //  Created by AMStudent on 9/2/21.
 import Combine
 
-class Book: ObservableObject {
+class Song: ObservableObject {
     
     
     let title: String
@@ -23,14 +23,14 @@ class Book: ObservableObject {
 
 
 
-extension Book: Hashable, Identifiable {
+extension Song: Hashable, Identifiable {
     func hash(into hasher: inout Hasher){
       hasher.combine(id)
     }
 }
 
-extension Book: Equatable {
-    static func == (lhs: Book, rhs: Book) -> Bool {
+extension Song: Equatable {
+    static func == (lhs: Song, rhs: Song) -> Bool {
         lhs === rhs
     }
 }

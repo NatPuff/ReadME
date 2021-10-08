@@ -14,22 +14,27 @@
 		7D3C8CA926E10DE100AD2EC9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3C8CA826E10DE100AD2EC9 /* ContentView.swift */; };
 		7D3C8CAB26E10DE200AD2EC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D3C8CAA26E10DE200AD2EC9 /* Assets.xcassets */; };
 		7D3C8CAE26E10DE200AD2EC9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D3C8CAD26E10DE200AD2EC9 /* Preview Assets.xcassets */; };
-		7D3C8CB626E10F7E00AD2EC9 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3C8CB526E10F7E00AD2EC9 /* Book.swift */; };
+		7D3C8CB626E10F7E00AD2EC9 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3C8CB526E10F7E00AD2EC9 /* Song.swift */; };
 		7D3C8CB926E1153400AD2EC9 /* BookViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3C8CB826E1153400AD2EC9 /* BookViews.swift */; };
+		7D4534782710996D00B1EEF5 /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4534772710996D00B1EEF5 /* Music.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7D0CF00326E7A5D2000B5B1A /* Library.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Library.swift; sourceTree = "<group>"; };
 		7D0CF00526E7A7E2000B5B1A /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		7D0CF00726E7B970000B5B1A /* PHPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHPickerViewController.swift; sourceTree = "<group>"; };
-		7D3C8CA326E10DE100AD2EC9 /* ReadME.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReadME.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D3C8CA326E10DE100AD2EC9 /* ReadME2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReadME2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D3C8CA626E10DE100AD2EC9 /* ReadMEApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadMEApp.swift; sourceTree = "<group>"; };
 		7D3C8CA826E10DE100AD2EC9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7D3C8CAA26E10DE200AD2EC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D3C8CAD26E10DE200AD2EC9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7D3C8CAF26E10DE200AD2EC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7D3C8CB526E10F7E00AD2EC9 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		7D3C8CB526E10F7E00AD2EC9 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 		7D3C8CB826E1153400AD2EC9 /* BookViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViews.swift; sourceTree = "<group>"; };
+		7D4534772710996D00B1EEF5 /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
+		7DF1D29827109D1400399A94 /* song3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = song3.mp3; path = ../../../song3.mp3; sourceTree = "<group>"; };
+		7DF1D29927109D1400399A94 /* song1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = song1.mp3; path = ../../../song1.mp3; sourceTree = "<group>"; };
+		7DF1D29A27109D1400399A94 /* song2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = song2.mp3; path = ../../../song2.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +59,7 @@
 		7D3C8CA426E10DE100AD2EC9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7D3C8CA326E10DE100AD2EC9 /* ReadME.app */,
+				7D3C8CA326E10DE100AD2EC9 /* ReadME2.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -62,11 +67,15 @@
 		7D3C8CA526E10DE100AD2EC9 /* ReadME */ = {
 			isa = PBXGroup;
 			children = (
+				7DF1D29927109D1400399A94 /* song1.mp3 */,
+				7DF1D29A27109D1400399A94 /* song2.mp3 */,
+				7DF1D29827109D1400399A94 /* song3.mp3 */,
 				7D3C8CA626E10DE100AD2EC9 /* ReadMEApp.swift */,
+				7D4534772710996D00B1EEF5 /* Music.swift */,
 				7D3C8CA826E10DE100AD2EC9 /* ContentView.swift */,
 				7D0CF00326E7A5D2000B5B1A /* Library.swift */,
 				7D3C8CB726E1152200AD2EC9 /* views */,
-				7D3C8CB526E10F7E00AD2EC9 /* Book.swift */,
+				7D3C8CB526E10F7E00AD2EC9 /* Song.swift */,
 				7D3C8CAA26E10DE200AD2EC9 /* Assets.xcassets */,
 				7D3C8CAF26E10DE200AD2EC9 /* Info.plist */,
 				7D3C8CAC26E10DE200AD2EC9 /* Preview Content */,
@@ -95,9 +104,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7D3C8CA226E10DE000AD2EC9 /* ReadME */ = {
+		7D3C8CA226E10DE000AD2EC9 /* ReadME2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7D3C8CB226E10DE200AD2EC9 /* Build configuration list for PBXNativeTarget "ReadME" */;
+			buildConfigurationList = 7D3C8CB226E10DE200AD2EC9 /* Build configuration list for PBXNativeTarget "ReadME2" */;
 			buildPhases = (
 				7D3C8C9F26E10DE000AD2EC9 /* Sources */,
 				7D3C8CA026E10DE000AD2EC9 /* Frameworks */,
@@ -107,9 +116,9 @@
 			);
 			dependencies = (
 			);
-			name = ReadME;
+			name = ReadME2;
 			productName = ReadME;
-			productReference = 7D3C8CA326E10DE100AD2EC9 /* ReadME.app */;
+			productReference = 7D3C8CA326E10DE100AD2EC9 /* ReadME2.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -126,7 +135,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7D3C8C9E26E10DE000AD2EC9 /* Build configuration list for PBXProject "ReadME" */;
+			buildConfigurationList = 7D3C8C9E26E10DE000AD2EC9 /* Build configuration list for PBXProject "ReadME2" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -139,7 +148,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7D3C8CA226E10DE000AD2EC9 /* ReadME */,
+				7D3C8CA226E10DE000AD2EC9 /* ReadME2 */,
 			);
 		};
 /* End PBXProject section */
@@ -164,10 +173,11 @@
 				7D3C8CA926E10DE100AD2EC9 /* ContentView.swift in Sources */,
 				7D0CF00626E7A7E2000B5B1A /* DetailView.swift in Sources */,
 				7D3C8CA726E10DE100AD2EC9 /* ReadMEApp.swift in Sources */,
-				7D3C8CB626E10F7E00AD2EC9 /* Book.swift in Sources */,
+				7D3C8CB626E10F7E00AD2EC9 /* Song.swift in Sources */,
 				7D3C8CB926E1153400AD2EC9 /* BookViews.swift in Sources */,
 				7D0CF00826E7B970000B5B1A /* PHPickerViewController.swift in Sources */,
 				7D0CF00426E7A5D2000B5B1A /* Library.swift in Sources */,
+				7D4534782710996D00B1EEF5 /* Music.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,7 +347,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7D3C8C9E26E10DE000AD2EC9 /* Build configuration list for PBXProject "ReadME" */ = {
+		7D3C8C9E26E10DE000AD2EC9 /* Build configuration list for PBXProject "ReadME2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7D3C8CB026E10DE200AD2EC9 /* Debug */,
@@ -346,7 +356,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7D3C8CB226E10DE200AD2EC9 /* Build configuration list for PBXNativeTarget "ReadME" */ = {
+		7D3C8CB226E10DE200AD2EC9 /* Build configuration list for PBXNativeTarget "ReadME2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7D3C8CB326E10DE200AD2EC9 /* Debug */,

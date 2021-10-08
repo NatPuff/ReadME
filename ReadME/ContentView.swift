@@ -6,8 +6,8 @@
 //
 
 import SwiftUI
-
-
+import AVFoundation
+var player: AVAudioPlayer!
 
 
 struct ContentView: View {
@@ -24,7 +24,7 @@ struct ContentView: View {
     }
 }
 struct BookRow: View {
-    @ObservedObject var book: Book
+    @ObservedObject var book: Song
     @Binding var image: UIImage?
     
     var body: some View {
@@ -33,7 +33,7 @@ struct BookRow: View {
        ) {
         
         HStack {
-            Book.Image(
+            Song.Image(
                 uiImage: image,
                 title: book.title,
                 size: 80,
